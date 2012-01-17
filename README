@@ -1,0 +1,14 @@
+Pancake - Control your farm via HTTP.
+
+(Still very much in development)
+
+PLUGINS
+Pancake::Plugin::HAProxy - http://github.com/robinedwards/Pancake-Plugin-HAProxy
+Pancake::Plugin::Env - example, provides information on loaded plugins
+
+CLIENTS
+Pancake::Client::HAProxy - http://github.com/robinedwards/Pancake-Client-HAProxy
+
+GETTING STARTED
+
+$ PANCAKE_CONFIG_DIR=/your/plugin_config_dir/ plackup Pancake::Service --port 9999
